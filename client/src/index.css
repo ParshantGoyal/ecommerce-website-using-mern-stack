@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Pathway+Extreme:wght@700&family=Playfair+Display:wght@700&family=Poppins:wght@300;400&family=Roboto+Mono&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* font-family: 'Poppins', sans-serif; */
+/* font-family: 'Pathway Extreme'Playfair Display', serif; */
+
+/* //navbar css */
+.navbar {
+  font-family: "Pathway Extreme", sans-serif;
+  font-size: 17px;
+  line-height: 26px;
+  text-transform: uppercase;
+  background-color: #2874f0 !important;
+  color: white !important;
+  box-shadow: 0 8px 6px -6px #f9fbfd;
+  --webkit-box-shadow: 0 8px 6px -6px #f7f7f7;
+  border-bottom: solid #e7edf7 !important;
+}
+
+.nav-link {
+  font-weight: 300 !important;
+  color: white !important;
+}
+
+.nav-link Badge {
+  color: white;
+}
+
+
+.active {
+  border-bottom: 2px solid rgb(255, 255, 255);
+}
+
+.navbar-brand {
+  font-weight: 1000 !important;
+  font-size: larger !important;
+  font-family: "Pathway Extreme", sans-serif;
+  letter-spacing: 3px;
+  color: white !important;
+
+}
+
+.search-form {
+  margin-right: 10px;
+  margin-top: 4px;
+}
+
+.search-form input {
+  border: none;
+  border-radius: 0;
+}
+
+.search-form button {
+  background-color: #ffffff;
+  border-radius: 0;
+  color: #2874f0;
+}
+
+.search-form button:hover {
+  background-color: #2874f0;
+  border: 2px solid white;
+  color: white;
+}
+
+/* =============================
+==========footer============= */
+
+.footer {
+  color: rgba(255, 255, 255, 0.788);
+  padding: 50px;
+
+  background: #2874f0;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right,
+      #2874f0,
+      #2874f0);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2874f0, #2874f0);
+}
+
+.footer a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.747);
+  padding: 10px;
+}
+
+.footer a:hover {
+  color: #e2e3e6be;
+  border-bottom: 1px solid #e6e9eeb0;
+}
+
+/* =================================
+======== page not found css ======= */
+.pnf {
+  display: flex;
+  min-height: 65vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.pnf-title {
+  font-size: 100px;
+  font-weight: 700;
+  color: #2874f0;
+}
+
+.pnf-heading {
+  font-weight: normal;
+  color: #2874f0;
+}
+
+.pnf-btn {
+  color: #2874f0;
+  border: 1px solid #2874f0;
+  text-decoration: none;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.pnf-btn:hover {
+  background-color: #2874f0;
+  color: white;
+}
+
+/* ========================================= */
+/* =========contact us ========= */
+.contactus {
+  margin: 0;
+  padding: 0;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #2874f0;
+
+}
+
+.mmm {
+  border: 2px solid #2874f0;
+  font-size: 18px !important;
+}
+
+.ndc {
+  background-color: #2874f0 !important;
+}
+
+/* ==================== */
+.product-link {
+  text-decoration: none !important;
+  color: #2874f0 !important;
+}
+
+.cat-btn {
+  padding: 40px 0px;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.cat-btn:hover {
+  background-color: #2874f0;
+  color: white;
+}
+
+/* ================
+====dashboard
+=================== */
+
+.dashboard {
+  margin-top: 100px !important;
+}
+
+.dashboard-menu h4 {
+  background-color: #2874f0 !important;
+  color: white;
+  padding: 20px 0px;
+}
